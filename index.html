@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Curso Node.js para Vasava</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+		.module-indicator {
+			position: absolute;
+			top: 0;
+			/* left: 0; */
+			right: 0;
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<div></div>
+				<h1>Curso NodeJS</h1>
+				<h4>Fundamentos básicos, aplicaciones del leguaje y ejercicios prácticos</h4>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 1</div>
+				<h3>
+					Intrucción a Node.js
+				</h3>
+				<ul>
+					<li class="fragment">
+						Historia de </b>JavaScript</b>
+					</li>
+					<li class="fragment">
+						Motores de </b>JavaScript</b>
+					</li>
+					<li class="fragment fade-in">
+						¿Qué es </b>Node.js</b>
+					</li>
+					<li class="fragment fade-in">
+						¿Por qué </b>Node.js</b>
+					</li>
+					<li class="fragment fade-in">
+						¿Qué versión de <b>Node.js</b> escoger?
+					</li>
+					<li class="fragment fade'in">
+						¿Cómo se compara </b>Node.js</b> con otros lenguajes de backend?
+					</li>
+					<li class="fragment fade-in">
+						Casos de uso de <b>Node.js</b>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 1</div>
+				<h3>
+					Intrucción a </b>Node.js</b>
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						Diferencias entre </b>JavaScript</b> en el navegador y en </b>Node.js</b> (APIs nativas)
+					</li>
+					<li class="fragment fade-in">
+						Sistemas de módulos en </b>JavaScript</b> y </b>Node.js</b>
+					</li>
+					<li class="fragment fade-in">
+						Ejecutando scripts de </b>Node.js</b>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 1</div>
+				<h3>
+					Prácticas
+				</h3>
+				<ol>
+					<li>Instalar <b>Node.js/NPM</b></li>
+					<li>Crear un script en <b>Node.js</b> que imprima tu nombre en consola</li>
+					<li>Ejecutar el script utilizando la terminal de comandos</li>
+				</ol>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 2</div>
+				<h3>
+					Variables Globales
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						¿Qué son variables globales?
+					</li>
+					<li class="fragment fade-in">
+						Variables globales en NodeJS
+						<ul>
+							<li>
+								global
+							</li>
+							<li>
+								require (CommonJS)
+							</li>
+							<li>
+								__dirname
+							</li>
+							<li>
+								__filename
+							</li>
+							<li>
+								process
+							</li>
+							<li>
+								module
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 2</div>
+				<h3>
+					Módulos
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						Módulos estándar de <b>Node.js</b>
+						<ul>
+							<li>os</li>
+							<li>path</li>
+							<li>fs</li>
+							<li>http</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 2</div>
+				<h3>
+					<b>Node.js como herramienta de desarrollo front-end</b>
+				</h3>
+				<ul class="fragment fade-in">
+					<li>¿Por qué si <b>Node.js</b> es un lenguaje de servidor lo utilizamos dentro del desarrollo
+						front-end?</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 2</div>
+				<h3>
+					Prácticas
+				</h3>
+				<ol>
+					<li>Crea un módulo que exporte cuatro (4) funciones con las operaciones básicas de la aritmética
+						(suma, resta, multiplicación, división)</li>
+					<li>Importa las funciones creadas en el módulo anterior e invócalas, imprime el resultado en consola
+					</li>
+					<li>Imprime en consola la plataforma en la que ejecutas el script</li>
+					<li>Determina cual es la dirección de sistema en la que se encuentran tus módulos e imprime en
+						consola</li>
+				</ol>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 3</div>
+				<h3>
+					Node Package Manager
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						¿Qué es un gestor de paquetes/dependencias?
+					</li>
+					<li class="fragment fade-in">
+						<b>npm</b> y como simplifica la gestión de dependencias
+					</li>
+					<li class="fragment fade-in">
+						Desmitificando <b>package.json</b>, <b>package-lock.json</b> y directorio <b>node_modules</b>
+					</li>
+					<li class="fragment fade-in">
+						ES6 modules VS CommonJS
+					</li>
+					<li class="fragment fade-in">
+						Alternativas a <b>npm</b> <i>(yarn, pnpm)</i>
+					</li>
+					<li class="fragment fade-in">
+						¿Cómo escoger una dependencia frente a otra?
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 3</div>
+				<h3>
+					APIs con <b>Node.js</b>
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						¿Qué es una API?
+					</li>
+					<li class="fragment fade-in">
+						¿Qué es un microservicio?
+					</li>
+					<li class="fragment fade-in">
+						¿En qué se diferencia una API de un microservicio?
+					</li>
+					<li class="fragment fade-in">
+						APIs REST
+						<ul>
+							<li>HTTP / HTTPS</li>
+						</ul>
+					</li>
+					<li class="fragment fade-in">
+						Express como framework de backend
+					</li>
+					<li class="fragment fade-in">
+						Alternativas a Express
+						<ul>
+							<li>
+								Nest
+							</li>
+							<li>
+								Fastify
+							</li>
+							<li>
+								Koda
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 3</div>
+				<h3>
+					Prácticas
+				</h3>
+				<ol>
+					<li>Inicia un nuevo módulo de <b>npm</b></li>
+					<li>Instala el módulo de <b><a href="https://www.npmjs.com/package/express">express</a></b></li>
+					<li>Copia y pega el código de boilerplate del enlace anterior en un index.js en tu módulo de
+						<b>npm</b> y comenta qué hace cada una de las líneas
+					</li>
+					<li>Inicia tu proyecto y ejecuta una petición a express</li>
+				</ol>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 4</div>
+				<h3>
+					Desarrollando una API REST
+				</h3>
+				<ul>
+					<li class="fragment fade-in">
+						Posibles estructuras de carpetas y archivos
+					</li>
+					<li class="fragment fade-in">
+						Protocolo HTTP
+						<ul>
+							<li class="fragment fade-in">Verbos
+								<ul>
+									<li>GET</li>
+									<li>POST</li>
+									<li>PUT</li>
+									<li>DELETE</li>
+								</ul>
+							</li>
+							<li class="fragment fade-in">URL/URI
+
+								<ul>
+									<li>Estructura</li>
+									<li>Parámetros (params)</li>
+									<li>Parámetros de búsqueda (query params)</li>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 4</div>
+				<h3>
+					Desarrollando una API REST
+				</h3>
+				<ul>
+
+					<li class="fragment fade-in">
+						Creando rutas para diferentes recursos
+					</li>
+					<li class="fragment fade-in">
+						Mismos ejercicios, diferentes frameworks
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="module-indicator">MÓDULO 4</div>
+				<h3>
+					Prácticas
+				</h3>
+				<ol>
+					<li>Continua con el módulo de la práctica anterior.</li>
+					<li>Crea una ruta <b>/os</b> que responda en qué plataforma se está ejecutando <b>Node.js</b></li>
+					<!-- Resto de ejercicio queda pendiente a determinar dependiendo de la necesidad del curso -->
+				</ol>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			center: false,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+
+		Reveal.on('module-change', (a) => {
+			console.log(a)
+		})
+	</script>
+</body>
+
+</html>
